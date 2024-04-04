@@ -1,0 +1,4 @@
+enum FluctuationChange {
+  RISE,
+  FALL,
+}

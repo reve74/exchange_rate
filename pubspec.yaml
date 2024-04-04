@@ -1,0 +1,70 @@
+name: exchange_rate
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  fl_chart: ^0.66.2
+  flutter_riverpod: ^2.4.10
+  flutter_screenutil: ^5.9.0
+
+  dio: ^5.4.1
+  retrofit: ^4.1.0
+  logger: any
+  json_annotation: ^4.8.1
+  flutter_svg: ^2.0.10+1
+  shared_preferences: ^2.2.2
+  riverpod_annotation: ^2.3.5
+  get_it: ^7.6.7
+  firebase_core: ^2.27.0
+  flutter_native_splash: ^2.3.10
+  hooks_riverpod: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  retrofit_generator:
+  json_serializable: ^6.7.1
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/flags/
+    - assets/fonts/
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Thin.otf
+          weight: 100
+        - asset: assets/fonts/Pretendard-ExtraLight.otf
+          weight: 200
+        - asset: assets/fonts/Pretendard-Light.otf
+          weight: 300
+        - asset: assets/fonts/Pretendard-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Pretendard-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Pretendard-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Pretendard-ExtraBold.otf
+          weight: 800
+        - asset: assets/fonts/Pretendard-Black.otf
+          weight: 900
